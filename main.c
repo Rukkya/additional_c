@@ -8,5 +8,7 @@ char *buffer_address;
   getline(&buffer_address, &x, stdin);
 printf("%s\n",buffer_address);
   free(buffer_address);
-return (0);
+
+  (void)ac; (void)argv;
+  return (0);
 }
