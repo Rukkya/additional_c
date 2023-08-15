@@ -6,7 +6,7 @@ char *buffer_address;
 
   printf("%s", output);
   getline(&buffer_address, &x, stdin);
-
+printf("%s\n",buffer_address);
   free(buffer_address);
 return (0);
 }
